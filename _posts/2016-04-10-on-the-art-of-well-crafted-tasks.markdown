@@ -10,7 +10,7 @@ tags:
 
 It's now common practice in software development circles to use issue tracking software to keep track of work being done. There are some full featured offerings available, such as Jira and Asana, as well as more humble tools available such as Trello, or GitHub Issues. However, something that perhaps isn't pointed out often enough is that there's a bit of an art to writing a good task.
 
-{% include captioned_gfycat_image.html gfycat="HappyAbleBobwhite" caption="'Bulk Load', 'Rules Based Filtering' and 'Ingestion Telemetry' sound more like search terms than actionable tasks" %}
+{% include captioned_gfycat_image.html gfycat="jared-board" caption="'Bulk Load', 'Rules Based Filtering' and 'Ingestion Telemetry' sound more like search terms than actionable tasks" %}
 
 We all know what it's like to be given a vague job to do, or to receive a poor bug report. The GitHub community felt this pain so acutely that there was a somewhat [large outcry for GitHub to provide solutions to the situation](https://github.com/dear-github/dear-github). It's both annoying and a productivity sink having to chase up details that should of been provided from the outset, and while there exist a large number of templates for bug reports, I haven't seen anywhere near as many resources for writing tasks for your colleagues.
 
@@ -28,7 +28,7 @@ Hopefully all the tasks that you are writing or being assigned already have a go
 
 > We should change the required information for new user account signup to be a valid email address and password. We should also change the purchase handling code to check that a user has all the necessary shipping and payment information to complete a purchase.
 
-{% include captioned_gfycat_image.html gfycat="SelfreliantInfamousCanvasback" caption="Context and a good task description are so important the Asana homepage lists them as features of the product" %}
+{% include captioned_gfycat_image.html gfycat="asana-splash" caption="Context and a good task description are so important the Asana homepage lists them as features of the product" %}
 
 ## Deliverables
 As the final act of the story the deliverables will be _how_ we know we are finished and _how_ will we measure success. A lot of the time this is simply rolled in to the same paragraph as the task description, but I find it helpful to think of it as a separate part of the task. What is going to come out of the completion of this task? Is there some documentation required? What should that documentation cover? Are there any non-functional requirements that need to be addressed?
