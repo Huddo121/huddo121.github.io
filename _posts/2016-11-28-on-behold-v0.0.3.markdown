@@ -8,6 +8,13 @@ cover_link: https://unsplash.com/photos/3a20DBlwvYY
 tags:
 ---
 
+{% capture deprecation_notice %}
+<p><strong>Update as of July 22, 2023</strong></p>
+<p>As fun as mucking about with this stuff likely was back in the day, Behold is very much abandonware.</p>
+{% endcapture %}
+
+{% include warning_panel.html content=deprecation_notice %}
+
 I've recently deployed the latest version of Behold, which is [now available on the Docker Hub](https://hub.docker.com/r/huddo121/behold/). There were a number of changes brought in to v0.0.3, with new new UI being the most immediately noticeable difference. [A changelog is also now available for the project](https://github.com/Huddo121/Behold/blob/530a8b9e09afe9144c05b412f2532c92cdeb1f6b/CHANGELOG.md).
 
 The other big change is the inclusion of log output for running containers. This also includes [a plugin for transforming the ANSI colour coded output in to HTML](https://github.com/drudru/ansi_up), so hopefully the log output isn't horrendously ugly.
